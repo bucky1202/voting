@@ -17,6 +17,7 @@ use App\Http\Controllers\ProfileController;
 Route::get('/', function () {
     return view('index');
 });
+Route::view('/idea','show');
 
 
 

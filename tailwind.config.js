@@ -29,6 +29,7 @@ module.exports = {
             },
 
             spacing: {
+                22: '5.5rem',
                 44: '11rem',
                 70: '17.5rem',
                 175: '43.75rem'
@@ -52,6 +53,6 @@ module.exports = {
 
     plugins: [
         require('@tailwindcss/forms'),
-        require('@tailwindcss/line-clamp')
+        // require('@tailwindcss/line-clamp')
     ],
 };
