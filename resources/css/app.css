@@ -10,7 +10,7 @@
     width: 3px;
     height: 100%;
     background: #edf0f5;
-    /* opacity: .07; */
+    opacity: .07;
 }
 
 .comment-container::before {
@@ -22,7 +22,7 @@
     height: 3px;
     background: #edf0f5;
     left: -40px;
-    /* opacity: .07; */
+    opacity: .07;
 }
 
 .comment-container:last-child::after {
@@ -46,4 +46,13 @@
     left: -58px;
     background: theme('colors.purple');
     opacity: 1;
+}
+
+.is-admin {
+    border-width: 1px;
+    border-image-source: linear-gradient(266deg, #21c8f6 98%, #637bff -52%);
+    border-image-slice: 1;
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff), linear-gradient(266deg, #21c8f6 98%, #637bff -52%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
