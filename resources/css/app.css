@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+[x-cloak]{
+    display:none !important;
+}
+
 .comments-container::before {
     position: absolute;
     display: block;
@@ -9,7 +13,7 @@
     content: "";
     width: 3px;
     height: 100%;
-    background: #edf0f5;
+    background: #78909c;
     opacity: .07;
 }
 
@@ -20,7 +24,7 @@
     content: "";
     width: 23px;
     height: 3px;
-    background: #edf0f5;
+    background: #78909c;
     left: -40px;
     opacity: .07;
 }
